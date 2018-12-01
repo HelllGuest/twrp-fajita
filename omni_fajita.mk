@@ -38,3 +38,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=OnePlus6T \
     BUILD_PRODUCT=OnePlus6T \
     TARGET_DEVICE=OnePlus6T
+
+# Time Zone data for TWRP
+PRODUCT_COPY_FILES += \
+    bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
